@@ -81,3 +81,19 @@ html {
 
 /* Services section */
 
+.services {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/s_image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+}
+
+#servicesOverlay {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+/* What We Do */
