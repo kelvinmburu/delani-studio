@@ -10,3 +10,32 @@
 html {
     scroll-behavior: smooth;
 }
+
+.hero-section {
+    background-image: url('../img/h_img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 13em;
+    color: #fff;
+}
+
+.hero-section h1 {
+    padding: 0.2em;
+    margin: 5px;
+}
+
+.hero-section p {
+    padding: 4px;
+}
+
+#logo {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 72px;
+    height: 72px;
+}
+
+/* Mouse image section */
+
