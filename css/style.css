@@ -39,3 +39,19 @@ html {
 
 /* Mouse image section */
 
+#mouseScroll {
+    padding-top: 4em;
+    margin-top: 5em;
+    padding-bottom: 2em;
+    animation-iteration-count: infinite;
+}
+
+#mouseScroll {
+    animation: jump 5s ease-in;
+}
+
+@keyframes jump {
+    0%, 20%, 80%, 100% {
+        transform: translateY(0)
+    }
+}
