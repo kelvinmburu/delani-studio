@@ -138,6 +138,7 @@ html {
     max-height: 100%;
 }
 
+
 .col-md-3 {
     cursor: pointer;
 }
@@ -154,12 +155,10 @@ html {
     height: 100%;
     background-color: rgba(255,255,255,0.4);
     position: absolute;
-    /* top: 20px; */
     left: 35px;
     font-weight: bold;
     text-align: center;
     font-size: 30px;
-    /* padding-top: 50%; */
 }
 
 /* Contact Us Section */
@@ -218,6 +217,12 @@ footer {
 footer p {
     margin-top: 10px;
 }
+
+footer img {
+    cursor: pointer;
+    transition: all 0.5 ease-in-out;
+}
+
 
 
 /* Media Queries Dimensions*/
