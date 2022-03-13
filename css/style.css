@@ -51,7 +51,11 @@ html {
 }
 
 @keyframes jump {
-    0%, 20%, 80%, 100% {
+
+    0%,
+    20%,
+    80%,
+    100% {
         transform: translateY(0);
     }
 
@@ -82,7 +86,7 @@ html {
 /* Services section */
 
 .services {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/s_image.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/s_image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -108,12 +112,19 @@ html {
     padding-top: 1.2em;
 }
 
-#design, #development, #product {
+#design,
+#development,
+#product {
     display: none;
     font-weight: 600;
 }
 
-#design, .title, #development, .title, #product, .title {
+#design,
+.title,
+#development,
+.title,
+#product,
+.title {
     font-size: 20px;
     font-weight: 600;
 }
@@ -143,17 +154,24 @@ html {
     cursor: pointer;
 }
 
-.portfolio-section h2{
+.portfolio-section h2 {
     text-align: center;
     padding-top: 40px;
 }
 
-#shadow1,#shadow2,#shadow3,#shadow4,#shadow5,#shadow6,#shadow7,#shadow8 {
+#shadow1,
+#shadow2,
+#shadow3,
+#shadow4,
+#shadow5,
+#shadow6,
+#shadow7,
+#shadow8 {
     display: none;
     color: #000;
     width: 100%;
     height: 100%;
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255, 255, 255, 0.4);
     position: absolute;
     left: 35px;
     font-weight: bold;
@@ -171,7 +189,7 @@ html {
 }
 
 .contact {
-    background-image:  url('../img/c_image.jpg');
+    background-image: url('../img/c_image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -180,7 +198,9 @@ html {
     width: 100%;
 }
 
-input[type="text"],input[type="email"],#comment {
+input[type="text"],
+input[type="email"],
+#comment {
     background: transparent;
     color: #fff;
     text-shadow: 500px #000;
@@ -203,7 +223,7 @@ input[type="text"],input[type="email"],#comment {
 
 button {
     text-align: center;
-    padding-top:33px;
+    padding-top: 33px;
     margin-bottom: 20px;
 }
 
@@ -227,133 +247,165 @@ footer img {
 
 /* Media Queries Dimensions*/
 
-@media only screen and (max-width: 755px){
-    #shadow1,#shadow2,#shadow3,#shadow4,#shadow5,#shadow6,#shadow7,#shadow8{
-      width: 100%;
-      height: 100%;
-      top: 20px;
-      left: 16px;
-      padding-top: 20%;
+@media only screen and (max-width: 755px) {
+
+    #shadow1,
+    #shadow2,
+    #shadow3,
+    #shadow4,
+    #shadow5,
+    #shadow6,
+    #shadow7,
+    #shadow8 {
+        width: 100%;
+        height: 100%;
+        top: 20px;
+        left: 16px;
+        padding-top: 20%;
     }
 
-    .col-md-3 img{
-      width:100%px;
-      margin: 20px;
+    .col-md-3 img {
+        width: 100%px;
+        margin: 20px;
     }
 
-    #portfolio{
-      margin-left:8%;
-      margin-right: 16%; 
+    #portfolio {
+        margin-left: 8%;
+        margin-right: 16%;
     }
 
-    #portfolio2{
-        margin-left:8%;
-        margin-right: 16%; 
-      }
-
-    button{
-      margin-left: 2%;
-      padding-bottom: 30px;
-      margin-bottom: 20px;
+    #portfolio2 {
+        margin-left: 8%;
+        margin-right: 16%;
     }
 
-  }
-
-  @media only screen and (max-width: 425px){
-    #shadow1,#shadow2,#shadow3,#shadow4,#shadow5,#shadow6,#shadow7,#shadow8{
-      width: 100%;
-      height: 100%;
-      top: 20px;
-      left: 16px;
-      padding-top: 20%;
-      font-size: 20px;
+    button {
+        margin-left: 2%;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
     }
 
-    .col-md-3 img{
-      width:100%px;
-      margin: 20px;
+}
+
+@media only screen and (max-width: 425px) {
+
+    #shadow1,
+    #shadow2,
+    #shadow3,
+    #shadow4,
+    #shadow5,
+    #shadow6,
+    #shadow7,
+    #shadow8 {
+        width: 100%;
+        height: 100%;
+        top: 20px;
+        left: 16px;
+        padding-top: 20%;
+        font-size: 20px;
     }
 
-    #portfolio{
-      margin-left:8%;
-      margin-right: 16%; 
+    .col-md-3 img {
+        width: 100%px;
+        margin: 20px;
     }
 
-    #portfolio2{
-        margin-left:8%;
-        margin-right: 16%; 
-      }
-
-    button{
-      padding-bottom: 30px;
-      margin-bottom: 20px;
+    #portfolio {
+        margin-left: 8%;
+        margin-right: 16%;
     }
 
-    #MERGE0{
-      width: 84%;
-      margin-left: 4%;
-      padding-bottom: 10px;
+    #portfolio2 {
+        margin-left: 8%;
+        margin-right: 16%;
     }
 
-    #MERGE1{
-      width: 100%;
-      margin-left: 4%;
-      margin-bottom: 20px;
+    button {
+        padding-bottom: 30px;
+        margin-bottom: 20px;
     }
 
-    #comment{
-      margin-left: 4%;
-      width: 84%;
-    }
-  }
-
-  @media only screen and (min-width: 825px){
-    #shadow1,#shadow2,#shadow3,#shadow4,#shadow5,#shadow6,#shadow7,#shadow8{
-      width: 100%;
-      height: 100%;
-      top: 20px;
-      left: 20px;
-      padding-top:30%; 
+    #MERGE0 {
+        width: 84%;
+        margin-left: 4%;
+        padding-bottom: 10px;
     }
 
-    .col-md-3 img{
-      width: 400px;
-      margin: 20px;
+    #MERGE1 {
+        width: 100%;
+        margin-left: 4%;
+        margin-bottom: 20px;
     }
 
-    #portfolio{
-      margin-left:10%;
-      margin-right: 10%; 
+    #comment {
+        margin-left: 4%;
+        width: 84%;
+    }
+}
+
+@media only screen and (min-width: 825px) {
+
+    #shadow1,
+    #shadow2,
+    #shadow3,
+    #shadow4,
+    #shadow5,
+    #shadow6,
+    #shadow7,
+    #shadow8 {
+        width: 100%;
+        height: 100%;
+        top: 20px;
+        left: 20px;
+        padding-top: 30%;
     }
 
-    #portfolio2{
-        margin-left:8%;
-        margin-right: 16%; 
-      }
-  }
-
-  @media only screen and (min-width: 625px){
-    #shadow1,#shadow2,#shadow3,#shadow4,#shadow5,#shadow6,#shadow7,#shadow8{
-      width: 100%;
-      height: 100%;
-      top: 20px;
-      left: 20px;
-      padding-top:20%; 
-      font-size: 26px;
+    .col-md-3 img {
+        width: 400px;
+        margin: 20px;
     }
 
-    .col-md-3 img{
-      width: 400px;
-      margin: 20px;
+    #portfolio {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
-    #portfolio{
-      margin-left:6%;
-      margin-right: 10%; 
+    #portfolio2 {
+        margin-left: 8%;
+        margin-right: 16%;
+    }
+}
+
+@media only screen and (min-width: 625px) {
+
+    #shadow1,
+    #shadow2,
+    #shadow3,
+    #shadow4,
+    #shadow5,
+    #shadow6,
+    #shadow7,
+    #shadow8 {
+        width: 100%;
+        height: 100%;
+        top: 20px;
+        left: 20px;
+        padding-top: 20%;
+        font-size: 26px;
     }
 
-    #portfolio2{
-        margin-left:8%;
-        margin-right: 16%; 
-      }
-  }
+    .col-md-3 img {
+        width: 400px;
+        margin: 20px;
+    }
+
+    #portfolio {
+        margin-left: 6%;
+        margin-right: 10%;
+    }
+
+    #portfolio2 {
+        margin-left: 8%;
+        margin-right: 16%;
+    }
+}
