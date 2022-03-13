@@ -237,6 +237,11 @@ footer p {
       margin-right: 16%; 
     }
 
+    #portfolio2{
+        margin-left:8%;
+        margin-right: 16%; 
+      }
+
     button{
       margin-left: 2%;
       padding-bottom: 30px;
@@ -264,6 +269,11 @@ footer p {
       margin-left:8%;
       margin-right: 16%; 
     }
+
+    #portfolio2{
+        margin-left:8%;
+        margin-right: 16%; 
+      }
 
     button{
       padding-bottom: 30px;
@@ -306,6 +316,11 @@ footer p {
       margin-left:10%;
       margin-right: 10%; 
     }
+
+    #portfolio2{
+        margin-left:8%;
+        margin-right: 16%; 
+      }
   }
 
   @media only screen and (min-width: 625px){
@@ -327,4 +342,9 @@ footer p {
       margin-left:6%;
       margin-right: 10%; 
     }
+
+    #portfolio2{
+        margin-left:8%;
+        margin-right: 16%; 
+      }
   }
