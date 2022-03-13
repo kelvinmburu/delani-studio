@@ -97,3 +97,23 @@ html {
 }
 
 /* What We Do */
+
+.what-we-do {
+    text-align: center;
+    padding-top: 5em;
+}
+
+.what-we-do .main-h {
+    padding-top: 1.2em;
+}
+
+#design, #development, #product {
+    display: none;
+    font-weight: 600;
+}
+
+#design, .title, #development, .title, #product, .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
