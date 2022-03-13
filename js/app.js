@@ -142,4 +142,17 @@ $(document).ready(function () {
   });
 
 
-  
+  // Mail Chimp alert message Functionality
+
+  $(document).ready(function () {
+      $("#main-form").submit(function (event) {
+        let name = $('input#MERGE1').val();
+        let email = $('input#MERGE0').val();
+        let alertMessage = $('textarea#comment').val();
+        if ($('input#MERGE1').val() && $('input#MERGE0').val()) {
+            alert('Hello' + ' ' + name + ', we have received your email. We will be in touch with you soon.');
+        } else {
+            alert('Invalid. Please enter your name and email address!')
+        }
+      });
+  });
