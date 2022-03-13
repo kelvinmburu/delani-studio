@@ -203,3 +203,19 @@ button {
     padding-top:33px;
     margin-bottom: 20px;
 }
+
+/* Footer Section */
+
+footer {
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+
+/* Media Queries Dimensions*/
+
+
