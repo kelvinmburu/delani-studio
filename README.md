@@ -31,4 +31,4 @@ This project uses a combination of the following languages:
 
 #### Live Link
 
-[Click here to view the live demo](https://kelvinmburu.github.io/Akan-Project/)
+[Click here to view the live demo](https://kelvinmburu.github.io/delani-studio/)
